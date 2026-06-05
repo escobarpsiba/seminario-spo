@@ -6,6 +6,7 @@ const navLinks = [
   { label: 'Proposta', href: '#proposta' },
   { label: 'Público', href: '#publico' },
   { label: 'Conteúdo', href: '#conteudo' },
+  { label: 'Módulos', href: '#modulos' },
   { label: 'Agenda', href: '#agenda' },
   { label: 'Coordenador', href: '#professor' },
 ];

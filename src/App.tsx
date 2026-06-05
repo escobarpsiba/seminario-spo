@@ -8,6 +8,7 @@ import HeroSection from '@/sections/HeroSection';
 import PropostaSection from '@/sections/PropostaSection';
 import ParaQuemSection from '@/sections/ParaQuemSection';
 import ConteudoSection from '@/sections/ConteudoSection';
+import ModulosSection from '@/sections/ModulosSection';
 import DatasHorariosSection from '@/sections/DatasHorariosSection';
 import ProfessorSection from '@/sections/ProfessorSection';
 import FinalCTASection from '@/sections/FinalCTASection';
@@ -33,6 +34,7 @@ function App() {
         <PropostaSection />
         <ParaQuemSection />
         <ConteudoSection />
+        <ModulosSection />
         <DatasHorariosSection />
         <ProfessorSection />
         <FinalCTASection />
