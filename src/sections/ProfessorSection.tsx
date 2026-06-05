@@ -93,6 +93,19 @@ export default function ProfessorSection() {
                 }}
               />
             </div>
+
+            <a
+              href="https://lucioescobar.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex items-center justify-center gap-2 text-caption font-semibold bg-transparent text-gold border border-gold/30 px-6 py-3 rounded-xl hover:bg-gold-dim hover:border-gold/60 transition-all duration-300 w-full max-w-[400px]"
+            >
+              Conheça mais Lucio Escobar
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M7 17L17 7" />
+                <path d="M7 7h10v10" />
+              </svg>
+            </a>
           </div>
 
           {/* Right - Bio */}
