@@ -75,7 +75,7 @@ export default function ProfessorSection() {
       <div className="page-container">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-24 items-center">
           {/* Left - Portrait */}
-          <div className="lg:col-span-2 flex justify-center lg:justify-start">
+          <div className="lg:col-span-2 flex flex-col items-center lg:items-start">
             <div
               className="professor-portrait opacity-0 relative aspect-[3/4] w-full max-w-[400px] rounded-2xl overflow-hidden border border-gold/20 hover:border-gold/40 transition-colors duration-400"
             >
@@ -98,10 +98,10 @@ export default function ProfessorSection() {
               href="https://lucioescobar.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center justify-center gap-2 text-caption font-semibold bg-transparent text-gold border border-gold/30 px-6 py-3 rounded-xl hover:bg-gold-dim hover:border-gold/60 transition-all duration-300 w-full max-w-[400px]"
+              className="mt-4 inline-flex items-center justify-center gap-1.5 text-caption font-medium bg-gold-dim text-gold border border-gold/20 px-4 py-2 rounded-lg hover:bg-gold/20 hover:border-gold/40 transition-all duration-300 text-sm self-start"
             >
-              Conheça mais Lucio Escobar
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              Conheça mais
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M7 17L17 7" />
                 <path d="M7 7h10v10" />
               </svg>
